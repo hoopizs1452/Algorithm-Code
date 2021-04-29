@@ -1,0 +1,32 @@
+請寫出Linear Search演算法，找到元素 v 在陣列 A 中的索引值。最後印出答案。
+
+
+系統輸入：
+第一行，陣列 A 的大小（範圍50~100）
+第二行，陣列 A 的內容（範圍1~1000）
+第三行，元素 v 的值
+
+結果輸出：
+Linear Search的執行結果
+
+
+
+輸入範例：
+5
+12 4 7 18 1
+7
+
+輸出範例：
+2
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main(int argc, char *argv[])
+{   
+    vector<int> A;
+	int i, n, v;
+	for(cin >> i; i > 0; i--) { cin >> n; A.push_back(n); }
+	cin >> v;
+}

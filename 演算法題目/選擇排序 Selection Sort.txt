@@ -1,0 +1,32 @@
+請寫出Selection Sort演算法，可以對陣列 A 進行由小到大的排序。請印出執行演算法的過程，最後印出答案，格式見輸出範例。
+
+
+系統輸入：
+第一行，陣列 A 的大小（範圍30~50）
+第二行，陣列 A 的內容（範圍1~500）
+
+結果輸出：
+每一次移動後，陣列的內容
+
+
+
+輸入範例：
+5
+9 8 2 4 3
+
+輸出範例：
+2 8 9 4 3
+2 3 9 4 8
+2 3 4 9 8
+2 3 4 8 9
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main(int argc, char *argv[])
+{   
+    vector<int> A;
+	int i, n;
+	for(cin >> i; i > 0; i--) { cin >> n; A.push_back(n); }
+}

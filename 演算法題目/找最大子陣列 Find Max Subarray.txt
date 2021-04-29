@@ -1,0 +1,41 @@
+請寫出Find Max Subarray演算法，可以找出陣列 A 中加總最大的子陣列。請印出最大子陣列在陣列 A 的位置(low and high)，以及最大子陣列的加總值。
+
+※使用課本上的演算法，或是時間複雜度O(n)的演算法都行。
+
+
+系統輸入：
+第一行，陣列 A 的大小（範圍50~100）
+第二行，陣列 A 的內容（範圍-500~500）
+
+結果輸出：
+印出最大子陣列的low、high、maxSum三個數值
+
+
+
+輸入範例一：
+8
+-2 5 -8 10 15 -30 12 3
+
+輸出範例一：
+3 4 25
+
+
+輸入範例二：
+10
+-2 -99 -71 60 -47 59 92 -100 61 -13
+
+輸出範例二：
+3 6 164
+
+#include <iostream>
+#include <vector>
+#include <tuple>
+#include <climits>
+using namespace std;
+
+int main(int argc, char *argv[])
+{   
+    vector<int> A;
+	int i, n;
+	for(cin >> i; i > 0; i--) { cin >> n; A.push_back(n); }
+}
